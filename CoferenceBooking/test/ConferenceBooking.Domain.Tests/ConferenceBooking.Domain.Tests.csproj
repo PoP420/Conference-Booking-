@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>ConferenceBooking</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\ConferenceBooking.Domain\ConferenceBooking.Domain.csproj" />
+    <ProjectReference Include="..\ConferenceBooking.TestBase\ConferenceBooking.TestBase.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="Reqnroll" Version="1.0.0" />
+    <PackageReference Include="Reqnroll.xUnit" Version="1.0.0" />
+    <PackageReference Include="Reqnroll.Tools.MsBuild.Generation" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

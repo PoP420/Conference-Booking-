@@ -1,0 +1,117 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "5.1.0",
+      "isInstalled": true,
+      "creationTime": "03/25/2026 08:32:22 +00:00"
+    },
+    "Volo.Abp.Account": {
+      "version": "10.1.0",
+      "isInstalled": true,
+      "creationTime": "03/25/2026 08:32:22 +00:00"
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "10.1.0",
+      "isInstalled": true,
+      "creationTime": "03/25/2026 08:32:22 +00:00"
+    },
+    "Volo.Abp.Identity": {
+      "version": "10.1.0",
+      "isInstalled": true,
+      "creationTime": "03/25/2026 08:32:22 +00:00"
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "10.1.0",
+      "isInstalled": true,
+      "creationTime": "03/25/2026 08:32:22 +00:00"
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "10.1.0",
+      "isInstalled": true,
+      "creationTime": "03/25/2026 08:32:22 +00:00"
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "10.1.0",
+      "isInstalled": true,
+      "creationTime": "03/25/2026 08:32:22 +00:00"
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "10.1.0",
+      "isInstalled": true,
+      "creationTime": "03/25/2026 08:32:22 +00:00"
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "ConferenceBooking.Application": {
+      "path": "src/ConferenceBooking.Application/ConferenceBooking.Application.abppkg",
+      "folder": "src"
+    },
+    "ConferenceBooking.Application.Tests": {
+      "path": "test/ConferenceBooking.Application.Tests/ConferenceBooking.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "ConferenceBooking.Domain.Shared": {
+      "path": "src/ConferenceBooking.Domain.Shared/ConferenceBooking.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "ConferenceBooking.Application.Contracts": {
+      "path": "src/ConferenceBooking.Application.Contracts/ConferenceBooking.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "ConferenceBooking.HttpApi": {
+      "path": "src/ConferenceBooking.HttpApi/ConferenceBooking.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "ConferenceBooking.HttpApi.Client": {
+      "path": "src/ConferenceBooking.HttpApi.Client/ConferenceBooking.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "ConferenceBooking.EntityFrameworkCore.Tests": {
+      "path": "test/ConferenceBooking.EntityFrameworkCore.Tests/ConferenceBooking.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "ConferenceBooking.EntityFrameworkCore": {
+      "path": "src/ConferenceBooking.EntityFrameworkCore/ConferenceBooking.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "ConferenceBooking.TestBase": {
+      "path": "test/ConferenceBooking.TestBase/ConferenceBooking.TestBase.abppkg",
+      "folder": "test"
+    },
+    "ConferenceBooking.Domain.Tests": {
+      "path": "test/ConferenceBooking.Domain.Tests/ConferenceBooking.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "ConferenceBooking.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/ConferenceBooking.HttpApi.Client.ConsoleTestApp/ConferenceBooking.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "ConferenceBooking.DbMigrator": {
+      "path": "src/ConferenceBooking.DbMigrator/ConferenceBooking.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "ConferenceBooking.HttpApi.Host": {
+      "path": "src/ConferenceBooking.HttpApi.Host/ConferenceBooking.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "ConferenceBooking.Blazor": {
+      "path": "src/ConferenceBooking.Blazor/ConferenceBooking.Blazor.abppkg",
+      "folder": "src"
+    },
+    "ConferenceBooking.Blazor.Client": {
+      "path": "src/ConferenceBooking.Blazor.Client/ConferenceBooking.Blazor.Client.abppkg",
+      "folder": "src"
+    },
+    "ConferenceBooking.Domain": {
+      "path": "src/ConferenceBooking.Domain/ConferenceBooking.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

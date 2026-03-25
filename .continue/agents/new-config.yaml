@@ -1,0 +1,25 @@
+# ~/.continue/config.yaml
+name: Local Qwen Coder
+version: 1.0.0
+schema: v1
+
+models:
+  # Chat/Edit model - Qwen Coder 3B
+  - name: Qwen Coder 3B
+    provider: ollama
+    model: qwen2.5-coder:3b
+    apiBase: http://localhost:11434
+    roles:
+      - chat
+      - edit
+      - apply
+    defaultCompletionOptions:
+      temperature: 0.2
+      maxTokens: 1024
+
+  # Optional: Autocomplete model (lighter/faster)
+  - name: Qwen Coder 1.5B
+    provider: ollama
+    model: qwen2.5-coder:1.5b
+    roles:
+      - autocomplete
